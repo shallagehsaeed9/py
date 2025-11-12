@@ -24,7 +24,7 @@ jobs:
       run: pyinstaller --onefile a1.py
 
     - name: Upload EXE artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: a1-exe
         path: dist/a1.exe
